@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Developed with [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
@@ -43,6 +43,24 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+```
+## Web Scraper
+
+```bash
+# Web site info
+Get news form https://news.ycombinator.com/
+
+#Local host
+App running locally at http://localhost:3000
+
+# URL to Get news
+http://localhost:3000/get-all-news-info
+
+# URL to filter news with more than five words in the title ordered by the number of comments first
+http://localhost:3000/get-filter-1
+
+# URL to filter news with less than or equal to five words in the title ordered by points.
+http://localhost:3000/get-filter-2
 ```
 
 ## Test
@@ -64,9 +82,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Edison Loor](https://www.linkedin.com/in/edison-l00r/)
 
 ## License
 
